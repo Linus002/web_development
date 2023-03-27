@@ -1,0 +1,98 @@
+a{
+    text-decoration: none;
+
+}
+.sidebar{
+    background-color:black;
+    color:aliceblue;
+    width: 150px;
+    height:100%;
+    position:fixed;
+    padding-top: 20px;
+    top:0;
+    left:0;
+}
+.sidebar ul{
+    list-style:none;
+    margin:0px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border:solid aqua;
+    font-size:20px;
+    padding:0px;
+}
+nav{
+    text-align:center;
+}
+.sidebar a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.li{
+    padding: 5px;
+    border:white;
+    border-width:100p;
+}
+a:hover{
+    background-color: grey;
+    color:black;
+}
+.rounded-image{
+    width: 150px;
+    height: 150px;
+    border-radius:100%;
+    overflow-y:none;
+}
+.my-name{
+    font-size:35px;
+    font-weight:bold;
+    color:aqua;
+}
+.main-content{
+    margin-left: 150px;
+}
+.introduction-text{
+    font-size: 25px;
+}
+.contact-me {
+    color:black;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.contact-me a{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: black;
+}
+.contact-mea:hover{
+    background-color: antiquewhite;
+    color: black;
+    transition: 200ms ease-in-out;
+}
+.read-more{
+    padding: 10px;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+.read-more a{
+    color: antiquewhite;
+    background-color: black;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 17px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.read-more a:hover{
+    background-color: antiquewhite;
+    color: black;
+    transition: 200ms ease-in-out;
+}
+body{
+    background-color: gray;
+}
